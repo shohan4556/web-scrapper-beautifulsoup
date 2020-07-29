@@ -1,0 +1,44 @@
+ERROR:root:HTTP Error 405: Not Allowed
+Traceback (most recent call last):
+  File "c:\Users\shohan\Desktop\Python Web Scrapping\wscrap.py", line 21, in retrive_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 405: Not Allowed
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "c:\Users\shohan\Desktop\Python Web Scrapping\wscrap.py", line 37, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:HTTP Error 405: Not Allowed
+Traceback (most recent call last):
+  File "c:\Users\shohan\Desktop\Python Web Scrapping\wscrap.py", line 21, in retrive_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\shohan\anaconda3\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 405: Not Allowed
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "c:\Users\shohan\Desktop\Python Web Scrapping\wscrap.py", line 37, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
